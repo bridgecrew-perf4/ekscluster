@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: nginxproxy1
+spec:
+  containers:
+    image: nginx
+    name: testcontainer
+
